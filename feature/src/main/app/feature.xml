@@ -11,6 +11,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
         <http:listener config-ref="HTTP_Listener_Configuration" path="/" doc:name="HTTP"/>
         <set-payload value="#[&quot;mouligggggggggggfffg&quot;]" doc:name="Set Payload"/>
         <logger message="&lt;&lt;" level="INFO" doc:name="Logger"/>
-        <set-variable variableName="a" value="#[1]" doc:name="Variable"/>
+        <set-variable variableName="a" value="#[2]" doc:name="Variable"/>
     </flow>
 </mule>
