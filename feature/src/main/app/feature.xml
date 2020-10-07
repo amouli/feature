@@ -9,9 +9,8 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
     <http:listener-config name="HTTP_Listener_Configuration" host="0.0.0.0" port="8081" doc:name="HTTP Listener Configuration"/>
     <flow name="featureFlow">
         <http:listener config-ref="HTTP_Listener_Configuration" path="/" doc:name="HTTP"/>
-        <set-payload value="#[&quot;mouligggggggggggfffffffffffffffffffffffffffgggggggggggggggggggggggggg77777777777&quot;]" doc:name="Set Payload"/>
-        <logger message="&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;pppppppppp" level="INFO" doc:name="Logger"/>
-        <logger message="111111111111" level="INFO" doc:name="Logger"/>
-        <logger message="&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;" level="INFO" doc:name="Logger"/>
+        <set-payload value="#[&quot;mouligggggggggggfffg&quot;]" doc:name="Set Payload"/>
+        <logger message="&lt;&lt;" level="INFO" doc:name="Logger"/>
+        <set-variable variableName="a" value="#[3333]" doc:name="Variable"/>
     </flow>
 </mule>
